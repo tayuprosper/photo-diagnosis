@@ -1,0 +1,22 @@
+# Secrets. Never commit your key.
+.env
+
+# Python environments
+venv/
+.venv/
+
+# Python build leftovers
+__pycache__/
+*.pyc
+
+# Test photos made by degrade.py
+bad_*.jpg
+
+# Your own photos (they can be private). Keep test photos in this folder.
+photos/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
